@@ -1,6 +1,6 @@
 [
   {
-    "src": "../../public/ProjectsPreview/Clima.webp",
+    "src": "../../../public/ProjectsPreview/Clima.webp",
     "title": "Weather app by location",
     "link": "https://entregable-gen26-2.netlify.app/",
     "repository": "https://github.com/Adi020/Weather-app/tree/main",
@@ -8,7 +8,7 @@
     "alt": "Weather App by Location"
   },
   {
-    "src": "../../public/ProjectsPreview/ConsultaDeUsuarios.webp",
+    "src": "../../../public/ProjectsPreview/ConsultaDeUsuarios.webp",
     "title": "App to add and remove users",
     "link": "https://entregable4-gen-26-react.netlify.app/",
     "repository": "https://github.com/Adi020/Add-users-app",
@@ -16,7 +16,7 @@
     "alt": "user app to add or remove"
   },
   {
-    "src": "../../public/ProjectsPreview/FraseRandom.jpg",
+    "src": "../../../public/ProjectsPreview/FraseRandom.jpg",
     "title": "App of phrases and random images",
     "link": "https://entregable-gen26.netlify.app/",
     "repository": "https://github.com/Adi020/App-phrase-random",
@@ -24,7 +24,7 @@
     "alt": "random phrase application with its author"
   },
   {
-    "src": "../../public/ProjectsPreview/Carrito.webp",
+    "src": "../../../public/ProjectsPreview/Carrito.webp",
     "title": "Shopping cart",
     "link": "https://mi-ccarrito-de-compras.netlify.app/",
     "repository": "https://github.com/Adi020/Carrito.de.compras",
@@ -32,7 +32,7 @@
     "alt": "Shopping Cart website"
   },
   {
-    "src": "../../public/ProjectsPreview/Pokedex.webp",
+    "src": "../../../public/ProjectsPreview/Pokedex.webp",
     "title": "Query app with pokemon filter via API",
     "link": "https://pokedex-proyectt.netlify.app/",
     "repository": "https://github.com/Adi020/Pokedex",
