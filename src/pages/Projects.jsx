@@ -2,7 +2,7 @@ import transition from "../components/Effects/Transition";
 import "./style/Projects.css";
 import ScrolleableSecction from "../components/Effects/ScrolleableSection";
 import { handleCreateItem } from "../utils/createItem";
-import projects from "../db/portfolio/proyectsToScroll.json";
+import projects from "../db/projects/proyectsToScroll.json";
 import ProjectList from "../components/projects/ProjectList";
 
 const Projects = () => {
