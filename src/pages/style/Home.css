@@ -1,0 +1,44 @@
+@media (max-width: 780px) {
+  .container_responsive {
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+}
+
+@media (min-width: 780px) {
+  .container_responsive {
+    gap: 12%;
+  }
+}
+
+@media (min-width: 780px) {
+  .container_responsive {
+    flex-direction: row-reverse;
+  }
+}
+
+/*contenedor de la informacion*/
+@media (min-width: 780px) {
+  .rs\:pr-\[10\%\] {
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 780px) {
+  .second_container_info {
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+}
+
+@media (min-width: 780px) {
+  .second_container_info {
+    gap: 12%;
+  }
+}
+
+@media (min-width: 780px) {
+  .rs\:pl-\[10\%\] {
+    padding-left: 10%;
+  }
+}

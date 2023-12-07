@@ -1,0 +1,22 @@
+[
+    {
+      "src": "./Images/decoration/Icons/icon.svg",
+      "alt": "Svg",
+      "text": "Experience the world through VR glasses"
+    },
+    {
+      "src": "./Images/decoration/Icons/Frame.svg",
+      "alt": "Svg",
+      "text": "View all your surrounding with 360°"
+    },
+    {
+      "src": "./Images/decoration/Icons/controller.svg",
+      "alt": "Svg",
+      "text": "Incredible gaming experience"
+    },
+    {
+      "src": "./Images/decoration/Icons/businessplan.svg",
+      "alt": "Svg",
+      "text": "Making meetings and tours easier"
+    }
+  ]

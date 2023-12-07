@@ -1,0 +1,52 @@
+.box-shadow {
+  box-shadow: 0px 0px 6px 2px rgba(69, 86, 161, 0.64);
+  -webkit-box-shadow: 0px 0px 6px 2px rgba(94, 103, 189, 0.64);
+  -moz-box-shadow: 0px 0px 6px 2px rgba(81, 88, 187, 0.64);
+}
+
+.port-image img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.port-image img {
+  width: 100%;
+  opacity: 0.5s;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.port-content {
+  opacity: 0;
+  background: rgba(230, 230, 230, 0.178);
+  background: radial-gradient(
+    circle,
+    rgba(47, 42, 68, 0.637) 40%,
+    rgba(33, 50, 145, 0.692) 90%
+  );
+  transition: 0.5s;
+  padding: 0 2rem;
+}
+
+.port-box:hover .port-content {
+  opacity: 1;
+}
+
+.port-box:hover .port-image img {
+  transform: scale(1.1);
+}
+
+.par--project {
+  @apply max-h-[350px] max-[640px]:w-[90%] sm:w-[35%];
+}
+
+.odd--project {
+  @apply max-h-[350px] w-[50%] max-[640px]:w-[90%];
+}
+
+.latest--project {
+  @apply max-h-[370px] w-[60%] max-[640px]:w-[90%];
+}

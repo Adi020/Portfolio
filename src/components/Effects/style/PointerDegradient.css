@@ -1,0 +1,14 @@
+.light {
+  background: radial-gradient(circle, #1a7dbeb2 0%, #1f34e7 10%, transparent);
+  box-shadow: 0px 0px 376px 200px rgba(51, 68, 219, 0.607);
+  -webkit-box-shadow: 0px 0px 476px 60px rgba(51, 68, 219, 0.638);
+  -moz-box-shadow: 0px 0px 476px 60px rgba(51, 68, 219, 0.581);
+  transform: translate(-50%, -50%);
+
+  @media (min-width: 1400px) {
+    box-shadow: 0px 0px 376px 200px rgba(51, 68, 219, 1);
+    -webkit-box-shadow: 0px 0px 160px 80px rgba(60, 45, 178, 0.64);
+    /* Establece un radio de borde para redondear los bordes */
+    border-radius: 50%;
+  }
+}

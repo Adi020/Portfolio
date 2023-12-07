@@ -1,0 +1,21 @@
+.slide-in {
+  position: absolute;
+  z-index: 40;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgb(1, 9, 37);
+  transform-origin: top;
+}
+
+.slide-out {
+  position: absolute;
+  z-index: 40;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgb(1, 9, 37);
+  transform-origin: top;
+}

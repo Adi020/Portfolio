@@ -1,0 +1,67 @@
+.container--scroll {
+  @apply relative z-20 overflow-hidden bg-[#202020];
+}
+
+.scroll__home {
+  @apply max-w-[1500px] w-[90%] sm:py-1 rounded-3xl;
+}
+
+.scroll--items__home {
+  @apply sm:h-[225px] items-center;
+}
+
+.translate--item__home {
+  flex: 0 0 33.33%;
+  padding: 10px;
+}
+@media (max-width: 740px) {
+  .translate--item__home {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .translate--item__home {
+    flex: 0 0 100%;
+  }
+}
+
+.item--project img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container--item__home {
+  @apply cursor-pointer hover:scale-105 max-[500px]:p-3 min-[1000px]:px-4 ease-in-out duration-300;
+}
+
+.item--home {
+  @apply flex flex-col text-[18px] font-FontSen text-center items-center w-[100%] gap-y-4 justify-center bg-[#3131318f] max-[640px]:h-[230px] sm:h-[200px] rounded-3xl;
+}
+
+.scroll__projects {
+  @apply w-full h-full max-h-[350px] max-w-[1800px];
+}
+
+.scroll--items__projects {
+  @apply h-[100%] w-[100%] cursor-pointer;
+}
+
+.container--item__projects {
+  @apply w-[100%] max-w-[1800px];
+}
+
+@media (min-width: 640px) {
+  .container--scroll:hover .scroll--btn {
+    visibility: visible;
+  }
+
+  .scroll--btn {
+    visibility: hidden;
+  }
+}
+.scroll--btn {
+  transform: translate(-50%, -50%);
+  @apply text-black absolute top-[50%] bottom-0 h-[85px] w-[45px] text-5xl shadow-xl hover:shadow-black;
+}
