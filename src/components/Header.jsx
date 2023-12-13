@@ -98,21 +98,21 @@ const Header = () => {
               <NavLink
                 onClick={showAndHiddenBySize}
                 className="nav--link"
-                to="/projects"
-              >
-                <i className="bx bx-table nav--icon"></i>
-                Projects
-              </NavLink>
-            </li>
-
-            <li className="list-none">
-              <NavLink
-                onClick={showAndHiddenBySize}
-                className="nav--link"
                 to="/about"
               >
                 <i className="bx bxs-id-card nav--icon"></i>
                 About me
+              </NavLink>
+            </li>
+
+             <li className="list-none">
+              <NavLink
+                onClick={showAndHiddenBySize}
+                className="nav--link"
+                to="/projects"
+              >
+                <i className="bx bx-table nav--icon"></i>
+                Projects
               </NavLink>
             </li>
 
